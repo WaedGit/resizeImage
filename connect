@@ -20,8 +20,8 @@ public class connect {
     public static Connection dataSource() throws URISyntaxException, SQLException {
 
         String ConnectionString ="jdbc:postgres://uldyfekdjygzsq:7ce93d5c5ea5f07fd99618f044a451ee75adc512ecfa4d1f212dc0a3e340f02a@ec2-54-221-243-211.compute-1.amazonaws.com:5432/d5ph6gnm55amdh";
-        String username = "****";
-        String password = "***";
+        String username = "uldyfekdjygzsq";
+        String password = "5432";
 
         return DriverManager.getConnection(ConnectionString, username, password);
     }
